@@ -1,0 +1,31 @@
+.heading
+{
+  font-size: 23px;
+  width: 100%;
+  margin: 0px;
+}
+.note
+{
+  font-size: 15px;
+  color: black;
+}
+body
+{
+  background-size: cover;	
+}
+#song
+  {
+  	font-size: 23px;
+  	margin: 15px;
+  }
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: canvas_animation;
+    animation-duration:4s ;
+    animation-iteration-count: infinite;
+}
+@keyframes canvas_animation{
+    from {box-shadow: 10px 10px 10px 15px rgb(241, 32, 137);}
+    to{box-shadow: 10px 10px 10px rgb(251, 152, 21);}
+}
