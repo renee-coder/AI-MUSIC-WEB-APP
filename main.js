@@ -1,18 +1,9 @@
-function preload(){
-    song = loadSound("music.mp3");
-}
-
-function play(){
-    song.play();
-}
-
 song1 = "";
 song2 = "";
 
-function preload()
-{
-	song1 = loadSound("music.mp3");
-	song2 = loadSound("music2.mp3");
+function preload(){
+	song = loadSound("music.mp3");
+	song = loadSound("music2.mp3");
 }
 
 function setup() {
@@ -21,4 +12,8 @@ function setup() {
 
 	video = createCapture(VIDEO);
 	video.hide();
+}
+
+function draw() {
+	image(video, 0, 0, 600, 500);
 }
